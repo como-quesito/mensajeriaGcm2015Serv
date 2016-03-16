@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gcm:gcm-server:1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gcm/gcm-server/1.0.2/10a1c27fc76ded608656efed121726df4f0ca192/gcm-server-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gcm/gcm-server/1.0.2/8cee4b474482d1f78557451567fedf4c39596fda/gcm-server-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

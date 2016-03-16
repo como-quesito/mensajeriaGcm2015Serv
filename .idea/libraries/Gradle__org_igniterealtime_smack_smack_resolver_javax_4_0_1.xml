@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.igniterealtime.smack:smack-resolver-javax:4.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-resolver-javax/4.0.1/762e55b081eb346553035b2356dda7ee326bb91a/smack-resolver-javax-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-resolver-javax/4.0.1/76ba3784151cc12f7c8ba9bca0b33a67a031f34/smack-resolver-javax-4.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
