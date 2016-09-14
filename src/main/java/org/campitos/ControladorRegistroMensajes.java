@@ -50,7 +50,7 @@ private ServicioRegistro servicioRegistro;
         sender=new Sender(key);
         String resultado="antes";
         List<RegistroMensajeria> registros=servicioRegistro.getTodos();
-        RegistroMensajeria regis=registros.get(0);
+        RegistroMensajeria regis=registros.get(1);
         String registroId=regis.getRegistroId();
         Content c=new Content();
         c.addRegId(registroId);
