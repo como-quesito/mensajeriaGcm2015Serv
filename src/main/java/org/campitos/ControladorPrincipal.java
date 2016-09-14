@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/")
 public class ControladorPrincipal {
-    @RequestMapping(value="/hola", method= RequestMethod.GET, headers={"Accept=text/html"})
+    @RequestMapping(value="/holasa", method= RequestMethod.GET, headers={"Accept=text/html"})
     @ResponseBody String inicial(){
         return "Bienvenido";
     }

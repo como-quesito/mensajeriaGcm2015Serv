@@ -21,7 +21,8 @@ import java.util.concurrent.Executors;
 @Transactional
 @Controller
 public class ControladorRegistroMensajes {
-    String key="AIzaSyDeDwyXm8mG_EwBtqsaS98z1FGqoqc2BRM";
+    //String key="AIzaSyDeDwyXm8mG_EwBtqsaS98z1FGqoqc2BRM";
+    String key ="AIzaSyCskiTTTj8NKj3Kg4kKpfORK4u86uhqZrk";
     private static final int MULTICAST_SIZE = 1000;
     private Sender sender;
     private static final Executor threadPool = Executors.newFixedThreadPool(5);
