@@ -22,7 +22,8 @@ import java.util.concurrent.Executors;
 @Controller
 public class ControladorRegistroMensajes {
     //String key="AIzaSyDeDwyXm8mG_EwBtqsaS98z1FGqoqc2BRM";
-    String key ="AIzaSyCskiTTTj8NKj3Kg4kKpfORK4u86uhqZrk";
+    //String key ="AIzaSyCskiTTTj8NKj3Kg4kKpfORK4u86uhqZrk";
+    String key= "AIzaSyC0KDpPiLQyaImvZfYRRJMJEzzNbUxWXr0";
     private static final int MULTICAST_SIZE = 1000;
     private Sender sender;
     private static final Executor threadPool = Executors.newFixedThreadPool(5);
@@ -50,15 +51,15 @@ private ServicioRegistro servicioRegistro;
         sender=new Sender(key);
         String resultado="antes";
         List<RegistroMensajeria> registros=servicioRegistro.getTodos();
-        RegistroMensajeria regis=registros.get(1);
+        RegistroMensajeria regis=registros.get(2);
         String registroId=regis.getRegistroId();
         Content c=new Content();
         c.addRegId(registroId);
         c.createData("raton:",mensaje);
         POST2GCM.post(key,c);
-        resultado="eviadooooooooo";
+        resultado="eviadooooooooo "+regis;
 
-        return "mensaje enviado con exito";
+        return "mensaje enviado con exito"+registroId;
 
     }
 }
