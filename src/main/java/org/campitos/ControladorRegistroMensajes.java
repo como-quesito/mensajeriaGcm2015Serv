@@ -23,6 +23,13 @@ import java.util.concurrent.Executors;
 public class ControladorRegistroMensajes {
     //String key="AIzaSyDeDwyXm8mG_EwBtqsaS98z1FGqoqc2BRM";
     //String key ="AIzaSyCskiTTTj8NKj3Kg4kKpfORK4u86uhqZrk";
+
+
+    //Esta es del proyecto
+   // https://console.firebase.google.com/project/primer-firebase/overview
+    //Recuerda que en la gogole console automaticamente ya aparece este proyecto pero en el archivo que se generald e
+    //firebase (el json) solo tienes los accesos de la app android, para el servidor en tu consola debes activar
+    //un api de servidor, la cual es la siguiente para dicho proyecto
     String key= "AIzaSyC0KDpPiLQyaImvZfYRRJMJEzzNbUxWXr0";
     private static final int MULTICAST_SIZE = 1000;
     private Sender sender;
