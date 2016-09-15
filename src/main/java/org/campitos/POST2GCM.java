@@ -35,8 +35,7 @@ public class POST2GCM {
             // 4. SAjustamos headerts
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setRequestProperty("Authorization", "key="+apiKey);
-         //  conn.setRequestProperty("to","dZFHj_wXG8s:APA91bHC2ZGP0G43DWlsH_U18AzGZbhlO6y_qL56jP-qOMb7Yobrz6edcC0C7jCcd3mB91MW8ANs3Emc9CfX9WoWE3y6YnngKuyUIgTEBvkvJq5hvdmXqq05ihGhoMMUmgXAun_3WX-F");
-         // conn.setRequestProperty("data","nadaaa");
+
             conn.setDoOutput(true);
 
             // 5. Agregamos JSON
